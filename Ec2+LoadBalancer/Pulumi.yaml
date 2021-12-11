@@ -1,0 +1,6 @@
+name: ec2-lb
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A minimal project for Ec2 multi-deployment + Load Balancing
