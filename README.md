@@ -9,22 +9,22 @@ Get Pulumi access keys for deployment
 ---
 
 ## Pulumi commands
-´´´pulumi new python´´´
+`pulumi new python`
 (Creates a new project with all the dependencies, ready to work before installing and getting the venv running)
-´´´pulumi config set aws:region us-east-2´´´
-´´´pulumi config set this-project:siteDir www´´´
+`pulumi config set aws:region us-east-2`
+`pulumi config set this-project:siteDir www`
 (Set "siteDir" variable to point to www, to be used programatically by config.require() function. This is ONLY a "www" string, not the contents of the actual www directory)
 
-´´´pulumi up´´´
+`pulumi up`
 
 (Runs and applies changes)
 
-´´´pulumi stack init prod´´´
+`pulumi stack init prod`
 (Creates another stack for "prod"; a "branch")
-´´´pulumi set aws:region same-or-other-region-east-1´´´
-´´´pulumi config set this-project:siteDir www´´´
+`pulumi set aws:region same-or-other-region-east-1`
+`pulumi config set this-project:siteDir www`
 
-´´´pulumi destroy´´´
+`pulumi destroy`
 (Destroy the present stack's objects including "prod" variables and data, and also AWS objects & Infra created)
 
 ---
