@@ -14,7 +14,9 @@ Get Pulumi access keys for deployment
 ´´´pulumi config set aws:region us-east-2´´´
 ´´´pulumi config set this-project:siteDir www´´´
 (Set "siteDir" variable to point to www, to be used programatically by config.require() function. This is ONLY a "www" string, not the contents of the actual www directory)
+
 ´´´pulumi up´´´
+
 (Runs and applies changes)
 
 ´´´pulumi stack init prod´´´
