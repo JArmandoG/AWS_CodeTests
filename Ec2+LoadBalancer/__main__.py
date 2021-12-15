@@ -3,9 +3,9 @@ import pulumi_aws as aws
 
 ''' 
 Simple IaC deployment:
-3 Ec2 instances across 3 AZ under 1 region + 1 simple ALB to distribute the loads evenly
+3 Ec2 instances across 3 AZ under 1 region + 1 simple ALB
 
-# Thanks to Beau Carnes and FCA for the intro to Pulumi
+# Credits: Beau Carnes and FCA for the intro to Pulumi
 '''
 
 ips = []
