@@ -1,10 +1,14 @@
 # First approach to using Pulumi for AWS IaC deployments with Python
 
 ## First steps:
+
 Get Pulumi access keys for deployment
 
-! Use a virtual environment. At the end do
-´´´pip freeze | tee requirements.txt´´´
+! Use a virtual environment. Pip Freeze:
+
+`pip freeze | tee requirements.txt`
+
+To-Do: AWS s3 log aggregator
 
 ---
 
@@ -30,7 +34,3 @@ Get Pulumi access keys for deployment
 
 `pulumi destroy`
 (Destroy the present stack's objects including "prod" variables and data, and also AWS objects & Infra created)
-
----
-
-To-Do: Deploy an AWS s3 log aggregator
