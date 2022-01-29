@@ -1,4 +1,10 @@
-# First approach to using Pulumi for AWS IaC deployments with Python
+# AWS Code Tests
+
+Learning python Boto3, IaC (Pulumi) and Lambda functions
+
+## 1.- Lambdas
+
+## 2.- Using Pulumi for AWS IaC deployments with Python
 
 ## First steps:
 
